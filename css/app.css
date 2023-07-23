@@ -173,6 +173,7 @@ main .banner h2 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 150px;
   color: #ca2813;
+  text-transform: uppercase;
   text-shadow: 1.5px 1.5px black;
   animation: bannerAnimation 3s infinite;
 }
