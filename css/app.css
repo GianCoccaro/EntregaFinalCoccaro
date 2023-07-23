@@ -312,6 +312,11 @@ main .about-us {
   background-color: rgb(100, 100, 100);
   background-blend-mode: soft-light;
 }
+@media (max-width: 576px) {
+  main .about-us {
+    padding-top: 60px;
+  }
+}
 main .about-us .square {
   width: auto;
   height: auto;
