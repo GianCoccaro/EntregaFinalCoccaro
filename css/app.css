@@ -177,6 +177,14 @@ main .banner h2 {
   text-shadow: 1.5px 1.5px black;
   animation: bannerAnimation 3s infinite;
 }
+@media (max-width: 576px) {
+  main .banner h2 {
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 main .row {
   flex-wrap: wrap;
   align-items: center;

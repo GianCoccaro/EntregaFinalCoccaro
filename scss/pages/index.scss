@@ -21,6 +21,12 @@ main{
             text-transform: uppercase;
             text-shadow: 1.5px 1.5px black;
             animation: bannerAnimation 3s infinite;
+            @include mediaquery-mbile{
+                font-size: 100px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
         }
         
     }
